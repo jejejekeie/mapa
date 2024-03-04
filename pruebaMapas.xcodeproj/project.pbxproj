@@ -16,6 +16,9 @@
 		EA09C0D82B8CA6CA00957DF1 /* pruebaMapasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C0D72B8CA6CA00957DF1 /* pruebaMapasTests.swift */; };
 		EA09C0E22B8CA6CA00957DF1 /* pruebaMapasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C0E12B8CA6CA00957DF1 /* pruebaMapasUITests.swift */; };
 		EA09C0E42B8CA6CA00957DF1 /* pruebaMapasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C0E32B8CA6CA00957DF1 /* pruebaMapasUITestsLaunchTests.swift */; };
+		EA09C0F32B8CF67000957DF1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C0F22B8CF67000957DF1 /* SearchTableViewController.swift */; };
+		EA09C0F72B8CF6BC00957DF1 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C0F62B8CF6BC00957DF1 /* InitialViewController.swift */; };
+		EA09C0F92B8D037A00957DF1 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C0F82B8D037900957DF1 /* Monument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EA09C0DD2B8CA6CA00957DF1 /* pruebaMapasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebaMapasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA09C0E12B8CA6CA00957DF1 /* pruebaMapasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaMapasUITests.swift; sourceTree = "<group>"; };
 		EA09C0E32B8CA6CA00957DF1 /* pruebaMapasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaMapasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA09C0F22B8CF67000957DF1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		EA09C0F62B8CF6BC00957DF1 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		EA09C0F82B8D037900957DF1 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				EA09C0C02B8CA6C800957DF1 /* AppDelegate.swift */,
 				EA09C0C22B8CA6C800957DF1 /* SceneDelegate.swift */,
 				EA09C0C42B8CA6C800957DF1 /* ViewController.swift */,
+				EA09C0F22B8CF67000957DF1 /* SearchTableViewController.swift */,
+				EA09C0F62B8CF6BC00957DF1 /* InitialViewController.swift */,
+				EA09C0F82B8D037900957DF1 /* Monument.swift */,
 				EA09C0C62B8CA6C800957DF1 /* Main.storyboard */,
 				EA09C0C92B8CA6CA00957DF1 /* Assets.xcassets */,
 				EA09C0CB2B8CA6CA00957DF1 /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA09C0F92B8D037A00957DF1 /* Monument.swift in Sources */,
+				EA09C0F72B8CF6BC00957DF1 /* InitialViewController.swift in Sources */,
 				EA09C0C52B8CA6C800957DF1 /* ViewController.swift in Sources */,
 				EA09C0C12B8CA6C800957DF1 /* AppDelegate.swift in Sources */,
 				EA09C0C32B8CA6C800957DF1 /* SceneDelegate.swift in Sources */,
+				EA09C0F32B8CF67000957DF1 /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +457,7 @@
 				DEVELOPMENT_TEAM = R63FLNZQCD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pruebaMapas/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = 1.0;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,6 +486,7 @@
 				DEVELOPMENT_TEAM = R63FLNZQCD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pruebaMapas/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = 1.0;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
